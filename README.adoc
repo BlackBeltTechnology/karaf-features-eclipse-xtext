@@ -1,0 +1,17 @@
+# Karaf feature Eclipse XText
+
+Externsion to karaf which adds Eclipse Xtext bundles to karaf features.
+
+To install some features features required. Please add the folloeing repository to your distribution (versions can be different, the tested versions are presented): 
+
+- mvn:hu.blackbelt.karaf.features/javax/1.0.1/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-javax)
+- mvn:hu.blackbelt.karaf.features/antlr/1.0.0/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-antlr)
+- mvn:hu.blackbelt.karaf.features/apache-commons/1.0.2/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-apache-commons)
+- mvn:hu.blackbelt.karaf.features/apache-httpclient/4.5.3_2/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-apache-httpclient)
+- mvn:hu.blackbelt.karaf.features/google/1.0.1/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-google)
+- mvn:hu.blackbelt.karaf.features/eclipse-emf/2.12.1/xml/features (Github: https://github.com/BlackBeltTechnology/karaf-features-eclipse-emf)
+
+## Features:
+
+- eclipse-xtext 2.16.0
+

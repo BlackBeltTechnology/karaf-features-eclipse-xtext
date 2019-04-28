@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="eclipse-xtext-${project.version}"
+    xmlns="http://karaf.apache.org/xmlns/features/v1.5.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://karaf.apache.org/xmlns/features/v1.5.0 http://karaf.apache.org/xmlns/features/v1.5.0">
+
+    <feature name="eclipse-xtext" version="2.16.0" description="EclipsesXText runtime" install="false">
+        <feature>eclipse-emf</feature>
+        <feature>guava</feature>
+        <feature>guice</feature>
+        <feature>antlr3</feature>
+        <feature>javax-cdi-api</feature>
+        <bundle>mvn:org.ow2.asm/asm-all/5.2</bundle>
+        <bundle>mvn:hu.blackbelt.bundles.eclipse-xtext/org.eclipse.xtext/2.16.0_1</bundle>
+    </feature>
+
+</features>
