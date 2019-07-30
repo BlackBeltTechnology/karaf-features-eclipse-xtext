@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.blackbelt.karaf.features</groupId>
-    <version>2.16.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <artifactId>eclipse-xtext</artifactId>
     <name>Eclipse XText Karaf feature project</name>
@@ -11,10 +11,9 @@
 
     <properties>
         <karaf-version>4.2.5</karaf-version>
-        <javax-karaf-features-version>1.0.1</javax-karaf-features-version>
         <antlr-karaf-features-version>1.0.0</antlr-karaf-features-version>
-        <apache-commons-karaf-features-version>1.0.2</apache-commons-karaf-features-version>
-        <google-karaf-features-version>1.0.1</google-karaf-features-version>
+        <apache-commons-karaf-features-version>1.0.5-SNAPSHOT</apache-commons-karaf-features-version>
+        <google-karaf-features-version>1.0.3-SNAPSHOT</google-karaf-features-version>
         <eclipse-emf-karaf-features-version>2.12.1</eclipse-emf-karaf-features-version>
     </properties>
 
