@@ -12,9 +12,9 @@
     <properties>
         <karaf-version>4.2.5</karaf-version>
         <antlr-karaf-features-version>1.0.0</antlr-karaf-features-version>
-        <apache-commons-karaf-features-version>1.0.5-SNAPSHOT</apache-commons-karaf-features-version>
-        <google-karaf-features-version>1.0.3-SNAPSHOT</google-karaf-features-version>
-        <eclipse-emf-karaf-features-version>2.12.1</eclipse-emf-karaf-features-version>
+        <apache-commons-karaf-features-version>1.0.5</apache-commons-karaf-features-version>
+        <google-karaf-features-version>1.0.3</google-karaf-features-version>
+        <eclipse-emf-karaf-features-version>2.18.0</eclipse-emf-karaf-features-version>
     </properties>
 
     <description>Eclpse Modeling Framework features</description>
