@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.blackbelt.karaf.features</groupId>
     <version>1.0.0-SNAPSHOT</version>
@@ -11,10 +9,10 @@
 
     <properties>
         <karaf-version>4.2.5</karaf-version>
-        <antlr-karaf-features-version>1.0.0</antlr-karaf-features-version>
-        <apache-commons-karaf-features-version>1.0.5</apache-commons-karaf-features-version>
-        <google-karaf-features-version>1.0.3</google-karaf-features-version>
-        <eclipse-emf-karaf-features-version>2.18.0</eclipse-emf-karaf-features-version>
+        <antlr-karaf-features-version>1.0.2.20191112_150321_54f0b2e_develop</antlr-karaf-features-version>
+        <apache-commons-karaf-features-version>1.0.6.20191112_150120_8396e08_develop</apache-commons-karaf-features-version>
+        <google-karaf-features-version>1.0.4.20191112_145050_c95a06d_develop</google-karaf-features-version>
+        <eclipse-emf-karaf-features-version>1.0.0.20191112_145407_36a50ba_develop</eclipse-emf-karaf-features-version>
     </properties>
 
     <description>Eclpse Modeling Framework features</description>
