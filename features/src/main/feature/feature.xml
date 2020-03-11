@@ -21,16 +21,16 @@
         <feature dependency="true">pax-cdi-core</feature>
         <bundle>mvn:org.ow2.asm/asm-all/5.2</bundle>
         <bundle>mvn:io.github.classgraph/classgraph/4.8.43</bundle>
-        <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-codegen/org.eclipse.emf.codegen/2.16.0_1</bundle>
-        <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-codegen-ecore/org.eclipse.emf.codegen.ecore/2.18.0_1</bundle>
-        <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-codegen-ecore-xtext/org.eclipse.emf.codegen.ecore.xtext/1.4.0_1</bundle>
-        <bundle>mvn:hu.blackbelt.bundles.eclipse-xtext/org.eclipse.xtext/2.18.0_1</bundle>
+        <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-codegen/org.eclipse.emf.codegen/2.16.0_2</bundle>
+        <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-codegen-ecore/org.eclipse.emf.codegen.ecore/2.18.0_2</bundle>
+        <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-codegen-ecore-xtext/org.eclipse.emf.codegen.ecore.xtext/1.4.0_2</bundle>
+        <bundle>mvn:hu.blackbelt.bundles.eclipse-xtext/org.eclipse.xtext/2.18.0_2</bundle>
 
-        <bundle>mvn:hu.blackbelt.bundles.eclipse-xbase/org.eclipse.xbase/2.18.0_1</bundle>
-        <bundle>mvn:hu.blackbelt.bundles.eclipse-xtend/org.eclipse.xtend/2.18.0_1</bundle>
-        <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-mwe2/org.eclipse.emf.mwe2/2.10.0_1</bundle>
-        <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-mwe/org.eclipse.emf.mwe/1.4.0_1</bundle>
-        <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-xcore/org.eclipse.emf.xcore/1.7.0_1</bundle>
+        <bundle>mvn:hu.blackbelt.bundles.eclipse-xbase/org.eclipse.xbase/2.18.0_2</bundle>
+        <bundle>mvn:hu.blackbelt.bundles.eclipse-xtend/org.eclipse.xtend/2.18.0_2</bundle>
+        <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-mwe2/org.eclipse.emf.mwe2/2.10.0_2</bundle>
+        <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-mwe/org.eclipse.emf.mwe/1.4.0_2</bundle>
+        <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-xcore/org.eclipse.emf.xcore/1.7.0_2</bundle>
     </feature>
 
 </features>
