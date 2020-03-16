@@ -11,7 +11,7 @@
         <karaf-version>4.2.5</karaf-version>
         <antlr-karaf-features-version>1.0.1</antlr-karaf-features-version>
         <apache-commons-karaf-features-version>1.0.5</apache-commons-karaf-features-version>
-        <google-karaf-features-version>1.0.4.20200311_225448_cf03ead_develop</google-karaf-features-version>
+        <google-karaf-features-version>1.0.4</google-karaf-features-version>
         <eclipse-emf-karaf-features-version>1.0.0</eclipse-emf-karaf-features-version>
     </properties>
 
