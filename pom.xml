@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.blackbelt.karaf.features</groupId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 
     <artifactId>eclipse-xtext</artifactId>
     <name>Eclipse XText Karaf feature project</name>
@@ -11,8 +11,8 @@
         <karaf-version>4.2.5</karaf-version>
         <antlr-karaf-features-version>1.0.1</antlr-karaf-features-version>
         <apache-commons-karaf-features-version>1.0.5</apache-commons-karaf-features-version>
-        <google-karaf-features-version>1.0.4</google-karaf-features-version>
-        <eclipse-emf-karaf-features-version>1.0.0</eclipse-emf-karaf-features-version>
+        <google-karaf-features-version>1.0.5</google-karaf-features-version>
+        <eclipse-emf-karaf-features-version>1.0.1</eclipse-emf-karaf-features-version>
     </properties>
 
     <description>Eclpse Modeling Framework features</description>
