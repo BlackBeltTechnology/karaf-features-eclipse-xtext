@@ -1,14 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.blackbelt.karaf.features</groupId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>${revision}</version>
 
     <artifactId>eclipse-xtext</artifactId>
     <name>Eclipse XText Karaf feature project</name>
     <packaging>pom</packaging>
 
     <properties>
-        <karaf-version>4.2.5</karaf-version>
+        <revision>1.0.3-SNAPSHOT</revision>
+        <karaf-version>4.3.3</karaf-version>
         <antlr-karaf-features-version>1.0.1</antlr-karaf-features-version>
         <apache-commons-karaf-features-version>1.0.5</apache-commons-karaf-features-version>
         <google-karaf-features-version>1.0.5</google-karaf-features-version>

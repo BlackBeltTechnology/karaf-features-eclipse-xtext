@@ -5,8 +5,7 @@
     <parent>
         <groupId>hu.blackbelt.karaf.features</groupId>
         <artifactId>eclipse-xtext</artifactId>
-        <version>1.0.3-SNAPSHOT</version>
-        <relativePath>../</relativePath>
+        <version>${revision}</version>
     </parent>
     <artifactId>eclipse-xtext-features</artifactId>
     <packaging>feature</packaging>
@@ -71,12 +70,15 @@
                                 <descriptor>file:${project.build.directory}/feature/feature.xml</descriptor>
                             </descriptors>
                             <distribution>org.apache.karaf.features:framework</distribution>
-                            <javase>1.8</javase>
+                            <javase>11</javase>
                             <framework>
                                 <feature>framework</feature>
                                 <feature>shell-compat</feature>
                             </framework>
                             <features>
+                                <feature>eclipse-xtext-2_18</feature>
+                                <feature>eclipse-xtext-2_22</feature>
+                                <feature>eclipse-xtext-2_25</feature>
                                 <feature>eclipse-xtext</feature>
                             </features>
                         </configuration>
