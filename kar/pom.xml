@@ -5,8 +5,7 @@
     <parent>
         <groupId>hu.blackbelt.karaf.features</groupId>
         <artifactId>eclipse-xtext</artifactId>
-        <version>1.0.3-SNAPSHOT</version>
-        <relativePath>../</relativePath>
+        <version>${revision}</version>
     </parent>
     <artifactId>eclipse-xtext-kar</artifactId>
     <packaging>kar</packaging>
