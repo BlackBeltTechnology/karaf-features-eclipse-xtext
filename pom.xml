@@ -104,7 +104,6 @@
         </profile>
         
         <profile>
-        <profile>
             <id>sign-artifacts</id>
             <build>
                 <plugins>
