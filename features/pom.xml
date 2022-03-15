@@ -24,7 +24,7 @@
                 <targetPath>${project.build.directory}/feature</targetPath>
             </resource>
         </resources>
-            
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -38,6 +38,7 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.karaf.tooling</groupId>
                 <artifactId>karaf-maven-plugin</artifactId>
@@ -102,10 +103,7 @@
                                         <descriptor>mvn:org.apache.karaf.features/framework/${karaf-version}/xml/features</descriptor>
                                         <descriptor>mvn:org.apache.karaf.features/standard/${karaf-version}/xml/features</descriptor>
                                         <descriptor>mvn:org.apache.karaf.features/enterprise/${karaf-version}/xml/features</descriptor>
-                                        <descriptor>mvn:hu.blackbelt.karaf.features/antlr-features/${antlr-karaf-features-version}/xml/features</descriptor>
-                                        <descriptor>mvn:hu.blackbelt.karaf.features/apache-commons-features/${apache-commons-karaf-features-version}/xml/features</descriptor>
-                                        <descriptor>mvn:hu.blackbelt.karaf.features/google-features/${google-karaf-features-version}/xml/features</descriptor>
-                                        <descriptor>mvn:hu.blackbelt.karaf.features/eclipse-emf-features/${eclipse-emf-karaf-features-version}/xml/features</descriptor>
+                                        <descriptor>mvn:org.apache.karaf.features/spring/${karaf-version}/xml/features</descriptor>
                                         <descriptor>file:${project.build.directory}/feature/feature.xml</descriptor>
                                     </descriptors>
                                     <distribution>org.apache.karaf.features:framework</distribution>
@@ -115,7 +113,28 @@
                                         <feature>shell-compat</feature>
                                     </framework>
                                     <features>
-                                        <feature>eclipse-xtext</feature>
+                                        <feature>apache-commons-beanutils</feature>
+                                        <feature>apache-commons-beanutils</feature>
+                                        <feature>apache-commons-collections</feature>
+                                        <feature>apache-commons-collections4</feature>
+                                        <feature>apache-commons-io</feature>
+                                        <feature>apache-commons-pool</feature>
+                                        <feature>apache-commons-pool2</feature>
+                                        <feature>apache-commons-dbcp2</feature>
+                                        <feature>apache-commons-codec</feature>
+                                        <feature>apache-commons-fileupload</feature>
+                                        <feature>apache-commons-lang</feature>
+                                        <feature>apache-commons-logging</feature>
+                                        <feature>apache-commons-configuration</feature>
+                                        <feature>apache-commons-math3</feature>
+                                        <feature>apache-commons-math</feature>
+                                        <feature>apache-commons-lang3</feature>
+                                        <feature>apache-commons-csv</feature>
+                                        <feature>apache-commons-compress</feature>
+                                        <feature>apache-commons-bcel</feature>
+                                        <feature>apache-xmlbeans2</feature>
+                                        <feature>apache-xmlbeans3</feature>
+                                        <feature>apache-jexl3</feature>
                                     </features>
                                 </configuration>
                             </execution>
@@ -148,6 +167,16 @@
                     <version>${karaf-version}</version>
                 </dependency>
                 <dependency>
+                    <groupId>org.apache.karaf.features</groupId>
+                    <artifactId>spring</artifactId>
+                    <classifier>features</classifier>
+                    <type>xml</type>
+                    <scope>runtime</scope>
+                    <version>${karaf-version}</version>
+                </dependency>
+
+                <!--should i leave these ones in? the ( <groupId>hu.blackbelt.karaf.features</groupId>) ones-->
+                <dependency>
                     <groupId>hu.blackbelt.karaf.features</groupId>
                     <artifactId>antlr-features</artifactId>
                     <classifier>features</classifier>
@@ -179,6 +208,7 @@
                     <scope>runtime</scope>
                     <version>${eclipse-emf-karaf-features-version}</version>
                 </dependency>
+
             </dependencies>
         </profile>
     </profiles>

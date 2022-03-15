@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>hu.blackbelt.karaf.features</groupId>
     <version>${revision}</version>
@@ -9,10 +8,11 @@
     <packaging>pom</packaging>
 
     <properties>
-        <revision>1.0.4-SNAPSHOT</revision>
+        <revision>1.0.3-SNAPSHOT</revision>
         <karaf-version>4.3.4</karaf-version>
         <deployOnly>false</deployOnly>
         <maven>3.8.3</maven>
+        <karaf-version>4.3.4</karaf-version>
         <antlr-karaf-features-version>1.0.1</antlr-karaf-features-version>
         <apache-commons-karaf-features-version>1.0.5</apache-commons-karaf-features-version>
         <google-karaf-features-version>1.0.5</google-karaf-features-version>
@@ -25,7 +25,7 @@
         <url>https://github.com/BlackBeltTechnology/karaf-features-${project.artifactId}/issues</url>
         <system>GitHub Issues</system>
     </issueManagement>
-
+    
     <scm>
         <connection>scm:git:git://github.com/BlackBeltTechnology/karaf-features-${project.artifactId}.git</connection>
         <developerConnection>
@@ -33,7 +33,7 @@
         </developerConnection>
         <url>https://github.com/BlackBeltTechnology/karaf-features-${project.artifactId}</url>
     </scm>
-
+    
     <developers>
         <developer>
             <id>robson</id>
@@ -44,7 +44,7 @@
             <organizationUrl>http://www.blackbelt.hu</organizationUrl>
         </developer>
     </developers>
-
+    
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -52,6 +52,7 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+
 
     <build>
         <pluginManagement>
@@ -81,7 +82,7 @@
                         </execution>
                     </executions>
                 </plugin>
-
+                
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-deploy-plugin</artifactId>
@@ -103,8 +104,10 @@
                     <artifactId>build-helper-maven-plugin</artifactId>
                     <version>3.0.0</version>
                 </plugin>
+
             </plugins>
         </pluginManagement>
+
 
         <plugins>
             <plugin>
@@ -169,7 +172,7 @@
                 <module>kar</module>
             </modules>
         </profile>
-
+        
         <profile>
             <id>sign-artifacts</id>
             <build>
@@ -248,7 +251,7 @@
                             <skip>true</skip>
                         </configuration>
                     </plugin>
-
+                    
                     <plugin>
                         <groupId>org.sonatype.plugins</groupId>
                         <artifactId>nexus-staging-maven-plugin</artifactId>
@@ -283,5 +286,6 @@
                 </repository>
             </distributionManagement>
         </profile>
+
     </profiles>
 </project>
