@@ -115,8 +115,12 @@
                                     <features>
                                         <feature>eclipse-compatibility</feature>
                                         <feature>eclipse-xtext</feature>
-                                        <feature>eclipse-xtext-2_18</feature>
-                                        <feature>eclipse-xtext-2_22</feature>
+                                        <feature>eclipse-emf</feature>
+                                        <feature>guava</feature>
+                                        <feature>guice</feature>
+                                        <feature>antlr3</feature>
+                                        <feature>pax-cdi-core</feature>
+                                        <feature>guava-27</feature>
                                     </features>
                                 </configuration>
                             </execution>
