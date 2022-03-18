@@ -121,6 +121,7 @@
                                         <feature>antlr3</feature>
                                         <feature>pax-cdi-core</feature>
                                         <feature>guava-27</feature>
+                                        <feature>eclipse-xtext-2_22</feature>
                                     </features>
                                 </configuration>
                             </execution>
