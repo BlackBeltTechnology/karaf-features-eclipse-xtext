@@ -113,28 +113,12 @@
                                         <feature>shell-compat</feature>
                                     </framework>
                                     <features>
-                                        <feature>apache-commons-beanutils</feature>
-                                        <feature>apache-commons-beanutils</feature>
-                                        <feature>apache-commons-collections</feature>
-                                        <feature>apache-commons-collections4</feature>
-                                        <feature>apache-commons-io</feature>
-                                        <feature>apache-commons-pool</feature>
-                                        <feature>apache-commons-pool2</feature>
-                                        <feature>apache-commons-dbcp2</feature>
-                                        <feature>apache-commons-codec</feature>
-                                        <feature>apache-commons-fileupload</feature>
-                                        <feature>apache-commons-lang</feature>
-                                        <feature>apache-commons-logging</feature>
-                                        <feature>apache-commons-configuration</feature>
-                                        <feature>apache-commons-math3</feature>
-                                        <feature>apache-commons-math</feature>
-                                        <feature>apache-commons-lang3</feature>
-                                        <feature>apache-commons-csv</feature>
-                                        <feature>apache-commons-compress</feature>
-                                        <feature>apache-commons-bcel</feature>
-                                        <feature>apache-xmlbeans2</feature>
-                                        <feature>apache-xmlbeans3</feature>
-                                        <feature>apache-jexl3</feature>
+                                        <feature>eclipse-compatibility</feature>
+                                        <feature>eclipse-emf</feature>
+                                        <feature>guava</feature>
+                                        <feature>guice</feature>
+                                        <feature>antlr3</feature>
+                                        <feature>pax-cdi-core</feature>
                                     </features>
                                 </configuration>
                             </execution>
