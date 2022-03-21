@@ -6,7 +6,6 @@
         <groupId>hu.blackbelt.karaf.features</groupId>
         <artifactId>eclipse-xtext</artifactId>
         <version>${revision}</version>
-        <relativePath>../</relativePath>
     </parent>
     <artifactId>eclipse-xtext-features</artifactId>
     <packaging>feature</packaging>
@@ -103,7 +102,10 @@
                                         <descriptor>mvn:org.apache.karaf.features/framework/${karaf-version}/xml/features</descriptor>
                                         <descriptor>mvn:org.apache.karaf.features/standard/${karaf-version}/xml/features</descriptor>
                                         <descriptor>mvn:org.apache.karaf.features/enterprise/${karaf-version}/xml/features</descriptor>
-                                        <descriptor>mvn:org.apache.karaf.features/spring/${karaf-version}/xml/features</descriptor>
+                                        <descriptor>mvn:hu.blackbelt.karaf.features/antlr-features/${antlr-karaf-features-version}/xml/features</descriptor>
+                                        <descriptor>mvn:hu.blackbelt.karaf.features/apache-commons-features/${apache-commons-karaf-features-version}/xml/features</descriptor>
+                                        <descriptor>mvn:hu.blackbelt.karaf.features/google-features/${google-karaf-features-version}/xml/features</descriptor>
+                                        <descriptor>mvn:hu.blackbelt.karaf.features/eclipse-emf-features/${eclipse-emf-karaf-features-version}/xml/features</descriptor>
                                         <descriptor>file:${project.build.directory}/feature/feature.xml</descriptor>
                                     </descriptors>
                                     <distribution>org.apache.karaf.features:framework</distribution>
@@ -115,12 +117,7 @@
                                     <features>
                                         <feature>eclipse-compatibility</feature>
                                         <feature>eclipse-xtext</feature>
-                                        <feature>eclipse-emf</feature>
-                                        <feature>guava</feature>
-                                        <feature>guice</feature>
-                                        <feature>antlr3</feature>
-                                        <feature>pax-cdi-core</feature>
-                                        <feature>guava-27</feature>
+                                        <feature>eclipse-xtext-2_18</feature>
                                         <feature>eclipse-xtext-2_22</feature>
                                     </features>
                                 </configuration>
