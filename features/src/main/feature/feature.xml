@@ -23,7 +23,7 @@
         <feature>guice</feature>
         <feature>antlr3</feature>
         <feature dependency="true">pax-cdi-core</feature>
-        <bundle>mvn:org.ow2.asm/asm-all/5.2</bundle>
+        <bundle>mvn:org.ow2.asm/asm/7.3.1</bundle>
         <bundle>mvn:io.github.classgraph/classgraph/4.8.43</bundle>
         <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-codegen/org.eclipse.emf.codegen/2.16.0_2</bundle>
         <bundle>mvn:hu.blackbelt.bundles.eclipse-emf-codegen-ecore/org.eclipse.emf.codegen.ecore/2.18.0_2</bundle>
